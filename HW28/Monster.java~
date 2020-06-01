@@ -1,0 +1,31 @@
+public class Attribues{
+
+    
+/*
+Attributes:
+life/health/HP as an int
+strength as an int
+defense as an int
+attack rating as a double
+
+Methods:
+constructor
+initializes all attributes
+sets strength to a random number ( ...Might I suggest the range [20,65) )
+suggested other attribute values:
+life: 150
+defense: 20
+attack: 1
+isAlive
+returns boolean indicating living or dead
+getDefense
+returns value of defense attribute
+getName
+returns value of name attribute
+lowerHP
+takes an int parameter, decreases life attribute by that amount
+attack
+takes a Protagonist as a parameter
+calculates damage using this formula: damage = (strength * attack rating) - warrior defense
+damage should be an integer value
+*/

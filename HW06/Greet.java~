@@ -1,0 +1,12 @@
+public class Greet {
+    public static void main (String [] args){
+        String greeting;
+
+        BigSib richard = new BigSib();
+        richard.setHelloMsg("Sup");
+
+        greeting = richard.greet("mom");
+        System.out.println(greeting);
+    
+    }
+}

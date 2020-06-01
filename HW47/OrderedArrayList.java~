@@ -1,0 +1,6 @@
+import java.util.ArrayList;
+
+public class OrderedArrayList extends  ArrayList{
+
+
+}

@@ -1,0 +1,47 @@
+/*
+Clara Mohri
+APCS1 Pd8
+HW#46 -- AI<B> Sorted!
+2017-12-05
+*/
+
+//ArrayList is imported
+import java.util.ArrayList;
+//the interface List for ArrayList is imported
+import java.util.List;
+
+public class ALTester{
+    
+    //populate method takes in a List<Integer>, and populates it with 23 ints
+    public static  void populate(List<Integer> array ){
+	for (int i = 0; i < 23; i++){
+	    array.add((int) (Math.random() *100));
+	}
+    }
+
+    //checkOrd method checks if the List is in ascending order
+    //returns true/false
+    public static boolean checkOrd(List<Integer> array){
+	boolean retBool = true;
+	for (int i = 0; i < 22; i++){
+	    if (array.get(i) >= array.get(i+1)){
+		retBool =   false;
+	    }
+	}
+	return retBool;
+    }
+	    
+    public static void main (String[] args){
+
+       List<Integer> array = new ArrayList<Integer>(); 
+
+       populate(array);
+       System.out.println("Array: ");
+       System.out.println(array);
+       System.out.println("Size of array: ");
+       System.out.println(array.size());
+       System.out.print("The area is in ascending order: ");
+       System.out.println(checkOrd(array));
+
+    }
+}

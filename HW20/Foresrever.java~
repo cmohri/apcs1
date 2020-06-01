@@ -1,0 +1,13 @@
+public class Foresrever{
+    public String fenceF(int posts){
+	String fence = "|";
+	for (x = 0; x < posts; x+=1){
+	    fence += "--|";
+	}
+    }
+
+
+
+    public static void main (String[] args){
+	System.out.println(fenceF(3));
+	System.out.println(fenceF(1));

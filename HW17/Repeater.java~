@@ -1,0 +1,21 @@
+public class Repeater
+{
+    public static void main(String[] args){
+	String fence = "|";
+	int ctr = 0;
+	while (ctr < x){
+	    fence += "--|";
+	    ctr += 1;
+	}
+    }
+
+
+    }
+    public static String fenceW(int numPosts){
+
+
+    }
+    public static String fenceR(int numPOsts){
+
+
+    }
