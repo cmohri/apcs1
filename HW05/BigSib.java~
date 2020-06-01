@@ -1,0 +1,20 @@
+/*
+Clara Mohri
+APCS1 Pd8
+HW04: A Classy Division of Labor
+2017-09-18
+*/
+
+//the class BigSib is called by Greet
+public class BigSib
+{
+    //greet receives a string from main, from Greet. It returns a greeting with the name.
+    static void greet(String name){
+	System.out.print("Why hello there, ");
+	System.out.print(name);
+	System.out.println(". How do you do?");
+    }
+    //main receives a string from Greet and sends it to greet
+    public static void main( String[] args){
+	greet(args[0]);}
+}

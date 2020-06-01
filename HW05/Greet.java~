@@ -1,0 +1,21 @@
+/*
+Clara Mohri
+APCS1 Pd8
+HW03: Howdy, <VeryInterestingPerson>!
+2017-09-16
+*/
+
+//The class Greet returns a greeting for one of three built in names.
+public class Greet {
+    //this function takes in a string from main and outputs a greeting with this string.
+    static void greet(String mystring){
+	System.out.println("Why hello there, " + mystring + ". How do you do?");
+    }
+    //main has  hardcoded names
+    public static void main (String[] args){
+	greet("meow");
+	greet("woof");
+	greet("moo");
+    }
+}
+
